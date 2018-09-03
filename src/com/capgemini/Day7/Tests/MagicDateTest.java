@@ -8,13 +8,11 @@ import org.junit.jupiter.api.Test;
 
 import com.capgemini.Day7.MagicDate;
 
-class LocalDateTest {
+class MagicDateTest {
 
-	
 	@Test
 	void testCheckIfMagicDate() {
 		MagicDate date1=new MagicDate() ;
 		assertEquals("magic",date1.checkIfMagicDate(LocalDate.of(30,6,5))) ;
 	}
-
 }
